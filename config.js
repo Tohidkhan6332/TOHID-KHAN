@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '917849917350';
+const defaultOwner = '0718408380';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -14,14 +14,14 @@ const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [timi zw];
 for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'TOHID-KHAN';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
+global.botname = process.env.BOTNAME || 'timi zw';
+global.pairingNumber = process.env.BOT_NUMBER || '0718408380';  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || '6BBhnTYK#i9myeDCkTNw6p3B7U3Ge6YrcGYq5sqnFjiA8ckyh_b0';  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -73,7 +73,7 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'TOHID-KHAN'
+global.packname = 'Timi zw'
 global.author = 'TohidTech'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
